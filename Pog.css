@@ -1,0 +1,32 @@
+a {
+  color: goldenrod;
+}
+a:hover {
+  color: lightgoldenrodyellow;
+  font-weight: bolder;
+  transition-duration: 0.1s;
+  position: relative;
+}
+
+body {
+  color: lavender;
+}
+h1 {
+  color: lavender;
+  text-decoration: underline;
+}
+h2 {
+  color: lavender;
+}
+
+img:hover {
+  filter: saturate(300%);
+}
+img {
+  border-radius: 10px;
+  max-width: 100%;
+  height: auto;
+}
+.headerlink:hover {
+  font-weight: bold;
+}
