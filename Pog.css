@@ -24,6 +24,7 @@ img:hover {
 img {
   border-radius: 10px;
   max-width: 100%;
+  width: auto;
   height: auto;
 }
 .headerlink {
@@ -55,4 +56,8 @@ a {
 }
 html {
   zoom: 100%;
+}
+li {
+  height: auto;
+  width: auto;
 }
