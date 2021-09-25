@@ -1,10 +1,8 @@
 a {
-  color: goldenrod;
+  color: rgb(200, 30, 19);
 }
 a:hover {
-  color: lightgoldenrodyellow;
-  font-weight: bolder;
-  transition: 0.1s ease;
+  color: orangered;
 }
 
 body {
@@ -13,51 +11,60 @@ body {
   height: auto;
 }
 h1 {
-  color: lavender;
+  color: rgb(200, 30, 19);
+  font-size: 40px;
+  font-weight: bolders;
 }
 h2 {
   color: lavender;
 }
-img:hover {
-  filter: saturate(300%);
-}
 img {
   border-radius: 10px;
-  max-width: 100%;
-  width: auto;
-  height: auto;
-}
-.headerlink {
-  color: lavender;
-}
-.headerlink:hover {
-  font-weight: bold;
-  color: rgb(183, 183, 189);
-}
-.bodylink:hover {
-  transition-duration: 0.3s;
-  font-weight: bold;
-  color: rgb(183, 183, 189);
-}
-.bodylink {
-  color: lavender;
+  max-width: 50%;
+  height: 70%;
+  margin-right: 100px;
+  margin-top: 5%;
 }
 body {
   background-color: rgb(35, 39, 42);
+}
+main {
+  display: flex;
+  flex-wrap: wrap;
 }
 ol {
   color: rgb(228, 207, 153);
 }
 ul {
-  color: rgb(228, 207, 153);
+  color: rgb(35, 39, 42);
 }
 a {
   text-decoration: none;
 }
 html {
   zoom: 100%;
+  font-family: monospace;
 }
 li {
   height: auto;
   width: auto;
+}
+main {
+  width: fit-content;
+  height: fit-content;
+}
+.Links {
+  font-size: 70px;
+  text-decoration: none;
+  margin-left: 100px;
+}
+.hourglass {
+  height: 50%;
+}
+li {
+  margin: 50px;
+}
+.BulletList {
+  font-size: 25px;
+  color: orangered;
 }
