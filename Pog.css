@@ -20,10 +20,9 @@ h2 {
 }
 img {
   border-radius: 10px;
-  max-width: 50%;
   height: 70%;
-  margin-right: 100px;
   margin-top: 5%;
+  margin-right: 10%;
 }
 body {
   background-color: rgb(35, 39, 42);
@@ -56,7 +55,7 @@ main {
 .Links {
   font-size: 70px;
   text-decoration: none;
-  margin-left: 100px;
+  margin-left: 10%;
 }
 .hourglass {
   height: 50%;
